@@ -1,0 +1,58 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image:url(./image/20230713_065427.jpg); no-repeat;
+    background-size: cover;
+}
+
+.logbox{
+    width: 280px;
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    color: white;
+    padding-left: 10px;
+}
+
+.logbox h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    border-bottom: 6px solid #eecc0e;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+    padding: 13px 0;
+    float: left;
+}
+
+.logger{
+    width:100%;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    margin: 8px;
+    padding:8px;
+    display: flex;
+}
+
+.logger input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    width: 80%;
+    margin: 0 10px;
+    float: left;
+}
+
+.btn{
+    width: 110%;
+    background: none;
+    border: 2px solid  #eecc0e;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
